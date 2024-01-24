@@ -42,10 +42,9 @@ const Usuario = sequelize.define('Usuario', {
     defaultValue: 'Activo',
   },
 }, {
-  timestamps: false,  // Desactivar timestamps
+  timestamps: false, 
 });
 
-// Asociación con el modelo Area
 Usuario.belongsTo(Area, { foreignKey: 'area_id', as: 'Area' });
 
 module.exports = Usuario;

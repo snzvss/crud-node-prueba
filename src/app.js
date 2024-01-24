@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const usuarioRoutes = require('./routes/usuarioRoutes'); // Asegúrate de tener las rutas correctas
-const areaRoutes = require('./routes/areaRoutes'); // Asegúrate de tener las rutas correctas
+const usuarioRoutes = require('./routes/usuarioRoutes'); 
+const areaRoutes = require('./routes/areaRoutes'); 
 
 const app = express();
 
